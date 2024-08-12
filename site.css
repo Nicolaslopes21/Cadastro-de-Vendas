@@ -1,0 +1,91 @@
+dialog {
+    ::-webkit-scrollbar{
+        display: none;
+    }
+    background-color:  #000000;
+    box-shadow: 0px, 0px, 0px, 0.15px;
+    opacity: 80%;
+    height: 10px;
+    width: 30px;
+    padding: 200px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius:35px ;
+    margin-right: 40px;
+    
+}
+
+label{
+    color: rgb(113, 113, 113);
+}
+
+input{
+    color: rgb(255, 255, 255);
+    border:0;
+    border-bottom:  2px solid rgb(255, 60, 0);
+    outline: 0;
+    background: transparent;
+    margin-bottom: 15px; ;
+    margin-bottom: 15px;}
+
+    input:focus{
+        border-bottom:2px solid rgb(250, 163, 2) ;
+    }
+
+ #bt, #fechar{
+    background-color: rgb(80, 81, 82);
+    border: none;
+    border-radius: 32px;
+    margin: 3px;
+    margin-top: 250px;
+}
+#bt:hover, #fechar:hover{
+    background-color: rgb(255, 68, 0);
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+body{
+    justify-content: center;
+    align-items: center;
+    background:  #292828 ;
+    margin: 0; 
+    height: 100px; 
+   }
+   #somaTotal{
+    margin-right: 85%;
+    margin-left: -28%;
+    color:white;
+   }
+  body, h1{
+    margin-left: 22.5%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+   }
+ div{
+    background: linear-gradient();
+    margin-left: -29%;
+ }
+
+#btabrir{
+    margin-left: -27%;
+}
+
+ #div1{
+    margin-left: 0%;
+ }
+ #abrir{
+    background-color:crimson ;
+    border: 0;
+    border-radius: 9px;
+  
+ }
+
+ #abrir:hover{
+    transform: scale(1.1);
+    background-color: #ff0000;
+
+ }
+ 
